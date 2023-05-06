@@ -21,6 +21,15 @@ cabal install hlint
 
 入ったらこのリポジトリをクローンしたディレクトリを vscode で開いて拡張機能のタブで `@recommended` を入力する。すると haskell を書く上で必要な拡張機能が表示されるのですべて install する
 
+### ライブラリインストール
+
+xxx の部分を入れたいライブラリ名にして以下のコマンドを実行する。
+vscode の window restart をして更新しているがもっといい方法があるはず
+
+```shell
+cabal install --lib xxx --package-env .
+```
+
 ## 参考
 
 - [Haskell の環境構築 2023](https://zenn.dev/mod_poppo/articles/haskell-setup-2023)
