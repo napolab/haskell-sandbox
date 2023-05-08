@@ -30,6 +30,10 @@ vscode の window restart をして更新しているがもっといい方法が
 cabal install --lib xxx --package-env .
 ```
 
+### vscode で executablePath が通らない場合
+
+`settings.json` に hlint と ghcup, ghci の executablePath を設定する
+
 ## 参考
 
 - [Haskell の環境構築 2023](https://zenn.dev/mod_poppo/articles/haskell-setup-2023)
