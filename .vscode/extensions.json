@@ -3,6 +3,7 @@
     "haskell.haskell",
     "phoityne.phoityne-vscode",
     "eriksik2.vscode-ghci",
-    "jcanero.hoogle-vscode"
+    "jcanero.hoogle-vscode",
+    "haskell.haskell-linter",
   ]
 }
